@@ -1,12 +1,12 @@
-create table consertos(
-    id bigint not null auto_increment,
-    entrada varchar(20) not null,
-    saida varchar(20) not null,
-    nome varchar(100) not null,
-    experiencia varchar(10) not null,
-    marca varchar(30) not null,
-    modelo varchar(30) not null,
-    ano varchar(20) not null,
+CREATE TABLE consertos(
+    id BIGINT NOT NULL AUTO_INCREMENT,
+    entrada VARCHAR(20) NOT NULL,
+    saida VARCHAR(20) NOT NULL,
+    nome VARCHAR(100) NOT NULL,
+    experiencia VARCHAR(10) NOT NULL,
+    marca VARCHAR(30) NOT NULL,
+    modelo VARCHAR(30) NOT NULL,
+    ano VARCHAR(20) NOT NULL,
 
-    primary key(id)
+    PRIMARY KEY(id)
 )
