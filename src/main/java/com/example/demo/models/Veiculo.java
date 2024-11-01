@@ -23,4 +23,5 @@ public class Veiculo {
         this.cor = dados.cor();
         this.ano = dados.ano();
     }
+
 }
